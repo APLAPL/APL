@@ -319,7 +319,7 @@ contract AMI is TRC20 {
     uint8 private _decimals;
 
     constructor () public {
-        _name = "APLAPL";
+        _name = "APL";
         _symbol = "APL";
         _decimals = 6;
         _mint(msg.sender, 1000000000* (10 ** uint256(_decimals)));
